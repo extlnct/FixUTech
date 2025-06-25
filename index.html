@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ТехЦентр - Профессиональный ремонт техники</title>
+    <link rel="stylesheet" href="../myProject/css/styleMain.css">
+
+</head>
+
+<body>
+    <!-- Шапка -->
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="#" class="logo">
+                    <i class="fas fa-tools"></i>
+                    <span>FixUTech</span>
+                </a>
+
+                <nav class="nav-links">
+                    <a href="#about">О нас</a>
+                    <a href="#why-us">Почему мы</a>
+                    <a href="#services">Услуги</a>
+                    <a href="#masters">Специалисты</a>
+                    <a href="#process">Процесс</a>
+                    <a href="#testimonials">Отзывы</a>
+                    <a href="#contact">Контакты</a>
+                </nav>
+
+                <button class="mobile-menu-btn"
+                    onclick="document.querySelector('.nav-links').classList.toggle('active')">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Герой секция -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Профессиональный ремонт техники с гарантией</h1>
+                <p class="hero-subtitle">Бесплатная диагностика, выезд мастера в день обращения, гарантия до 2 лет на
+                    все работы</p>
+
+                <div class="hero-buttons">
+                    <a href="./FixUTechServ.html#booking" class="btn">Запись на ремонт</a>
+                    <a href="tel:+78001234567" class="btn btn-margin">
+                        <i class="fas fa-phone"></i> +7 (800) 123-45-67
+                    </a>
+                </div>
+
+                <ul class="hero-stats">
+                    <li class="stat-item">
+                        <div class="stat-icon">
+                            <i class="fas fa-calendar-check"></i>
+                        </div>
+                        <div>
+                            <div class="stat-number">12+</div>
+                            <div class="stat-label">Лет на рынке</div>
+                        </div>
+                    </li>
+
+                    <li class="stat-item">
+                        <div class="stat-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div>
+                            <div class="stat-number">15,000+</div>
+                            <div class="stat-label">Довольных клиентов</div>
+                        </div>
+                    </li>
+
+                    <li class="stat-item">
+                        <div class="stat-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <div>
+                            <div class="stat-number">30+</div>
+                            <div class="stat-label">Специалистов</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- О компании -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="./img/FUTCompany.jpg" alt="Наш сервисный центр">
+                </div>
+
+                <div class="about-text">
+                    <span class="section-subtitle">О компании</span>
+                    <h2>FixUTech — надежный сервис с 2010 года</h2>
+                    <p>Мы занимаемся ремонтом и обслуживанием техники уже более 12 лет, помогая клиентам решать любые
+                        проблемы с электроникой. Наша миссия — сделать ремонт техники простым, быстрым и доступным для
+                        каждого.</p>
+
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <img  src="./img/check-mark.png"></img>
+                            </div>
+                            <div>
+                                <h4>Гарантия качества</h4>
+                                <p>Даем гарантию до 2 лет на все виды работ и используемые запчасти</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <img  src="./img/check-mark.png"></img>
+                            </div>
+                            <div>
+                                <h4>Быстрый ремонт</h4>
+                                <p>80% ремонтов выполняем в день обращения, без задержек</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <img  src="./img/check-mark.png"></img>
+                            </div>
+                            <div>
+                                <h4>Оригинальные запчасти</h4>
+                                <p>Работаем только с проверенными поставщиками и оригинальными комплектующими</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Почему мы -->
+    <section id="why-us" class="why-us bg-light">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Наши преимущества</span>
+                <h2>Почему выбирают именно нас?</h2>
+                <p>Мы предлагаем не просто ремонт, а комплексное решение проблем с вашей техникой</p>
+            </div>
+
+            <div class="advantages-grid">
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <img class="img-icon" src=".//img/guarantee.png"></img>
+                    </div>
+                    <h3>Гарантия 2 года</h3>
+                    <p>Самая длительная гарантия на рынке. Если что-то сломается — починим бесплатно.</p>
+                </div>
+
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <img class="img-icon" src=".//img/express-delivery.png"></img>
+                    </div>
+                    <h3>Бесплатный выезд</h3>
+                    <p>Мастер приедет к вам домой или в офис в течение 60 минут после заявки.</p>
+                </div>
+
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <img class="img-icon" src=".//img/hand.png"></img>
+                    </div>
+                    <h3>Честные цены</h3>
+                    <p>Фиксированная стоимость после диагностики. Никаких скрытых платежей.</p>
+                </div>
+
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <img class="img-icon" src=".//img/technical-support.png"></img>
+                    </div>
+                    <h3>Опытные мастера</h3>
+                    <p>Средний стаж наших специалистов — 7 лет. Они знают свою работу идеально.</p>
+                </div>
+
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <img class="img-icon" src=".//img/wrench.png"></img>
+                    </div>
+                    <h3>Оригинальные запчасти</h3>
+                    <p>Используем только сертифицированные комплектующие с гарантией производителя.</p>
+                </div>
+
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <img class="img-icon" src=".//img/customer-service.png"></img>
+                    </div>
+                    <h3>Поддержка 24/7</h3>
+                    <p>Круглосуточная служба поддержки. Решаем срочные проблемы в любое время.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Услуги -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Наши услуги</span>
+                <h2>Мы ремонтируем все виды техники</h2>
+                <p>Профессиональный ремонт с использованием оригинальных запчастей</p>
+            </div>
+
+            <ul class="services-grid">
+                <li class="service-card">
+                    <div class="service-image"
+                        style="background-image: url(./img/phone1.jpg);">
+                        <span class="service-badge">Хит</span>
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Ремонт смартфонов</h3>
+                        <p>Замена экранов, батарей, разъемов, ремонт после воды, восстановление данных</p>
+                        <div class="service-price">от 1 990 ₽</div>
+                        <a href="#contact" class="btn btn-outline">Заказать</a>
+                    </div>
+                </li>
+
+                <li class="service-card">
+                    <div class="service-image"
+                        style="background-image: url(./img/laptop1.jpg);">
+                        <span class="service-badge">Акция</span>
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Ремонт ноутбуков</h3>
+                        <p>Чистка от пыли, замена комплектующих, ремонт материнских плат, замена матриц</p>
+                        <div class="service-price">от 1 490 ₽</div>
+                        <a href="#contact" class="btn btn-outline">Заказать</a>
+                    </div>
+                </li>
+
+                <li class="service-card">
+                    <div class="service-image"
+                        style="background-image: url(./img/washingMach.png);">
+                        <span class="service-badge">Новинка</span>
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Ремонт бытовой техники</h3>
+                        <p>Холодильники, стиральные машины, микроволновки, пылесосы, кофемашины</p>
+                        <div class="service-price">от 2 500 ₽</div>
+                        <a href="#contact" class="btn btn-outline">Заказать</a>
+                    </div>
+                </li>
+                <label class="service-label"> Больше услуг </label>
+                <a class="service-button" href="./FixUTechServ.html"><img class="img-but" src="./img/arrow.png"
+                        alt="стрелка">
+                </a>
+            </ul>
+
+        </div>
+
+    </section>
+
+    <!-- Процесс работы -->
+    <section id="process" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Как мы работаем</span>
+                <h2>Процесс ремонта в FixUTech</h2>
+                <p>Прозрачный и понятный процесс от заявки до возврата устройства</p>
+            </div>
+
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Заявка</h3>
+                        <p>Оставляете заявку на сайте или по телефону. Наш менеджер свяжется с вами в течение 5 минут
+                        </p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Диагностика</h3>
+                        <p>Бесплатная диагностика неисправности. Называем точную стоимость и сроки ремонта</p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Согласование</h3>
+                        <p>Вы принимаете решение о ремонте. Мы не начинаем работу без вашего подтверждения</p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Ремонт</h3>
+                        <p>Профессиональный ремонт с использованием оригинальных запчастей</p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <div class="step-content">
+                        <h3>Готово</h3>
+                        <p>Проверка работы устройства, оформление гарантии и возврат вам</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Мастера -->
+    <section id="masters" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Наши специалисты</span>
+                <h2>Мы справимся с любым видом работ</h2>
+                <p>Профессиональный ремонт от профессиональных мастеров</p>
+            </div>
+
+            <ul class="services-grid">
+                <li class="service-card">
+                    <div class="service-image" style="background-image: url(./img/IvanK.jpg);">
+
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Иван Козлов</h3>
+                        <p>Опыт: 12 лет
+                        <div class="specialist-skills">Специалист по бытовой технике:
+                            <span class="skill-tag">Холодильники,</span>
+                            <span class="skill-tag">Стиральные машины,</span>
+                            <span class="skill-tag">Посудомойки,</span>
+                            <span class="skill-tag">Кофемашины.</span>
+                        </div>
+                        </p>
+                        <div class="service-price">от 1 990 ₽</div>
+                        <a href="./FixUTechServ.html#booking" class="btn btn-outline">Записаться</a>
+                    </div>
+                </li>
+
+                <li class="service-card">
+                    <div class="service-image" style="background-image: url(./img/ElenaS.jpg);">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Елена Смирнова</h3>
+                        <p>Опыт: 6 лет
+                        <div class="specialist-skills">Мастер по ремонту ноутбуков:
+                            <span class="skill-tag">MacBook,</span>
+                            <span class="skill-tag">ASUS,</span>
+                            <span class="skill-tag">Lenovo,</span>
+                            <span class="skill-tag">MSI,</span>
+                            <span class="skill-tag">Чип-ремонт,</span>
+                            <span class="skill-tag">Замена матриц.</span>
+                        </div>
+                        </p>
+                        <div class="service-price">от 1 490 ₽</div>
+                        <a href="./FixUTechServ.html#booking" class="btn btn-outline">Записаться</a>
+                    </div>
+                </li>
+
+                <li class="service-card">
+                    <div class="service-image" style="background-image: url(./img/AlexeyP.jpg);">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Алексей Петров</h3>
+                        <p>Опыт: 8 лет
+                        <div class="specialist-skills">Старший мастер по ремонту смартфонов:
+                            <span class="skill-tag">iPhone,</span>
+                            <span class="skill-tag">Samsung,</span>
+                            <span class="skill-tag">Работа с ОС,</span>
+                            <span class="skill-tag">Восстановление данных и др. виды работ.</span>
+                        </div>
+                        </p>
+                        <div class="service-price">от 2 500 ₽</div>
+                        <a href="./FixUTechServ.html#booking" class="btn btn-outline">Записаться</a>
+                    </div>
+                </li>
+                <label class="service-label2">Больше мастеров</label>
+                <a class="service-button" href="./FixUTechWorkers.html"><img class="img-but" src="./img/arrow.png" alt="стрелка">
+                </a>
+            </ul>
+
+        </div>
+
+    </section>
+    <!-- Отзывы -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Отзывы</span>
+                <h2>Что говорят наши клиенты</h2>
+                <p>Более 15 000 довольных клиентов за 12 лет работы</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>Сломался ноутбук, не включался. В FixUTech быстро диагностировали проблему (оказалось,
+                            сгорел блок питания), заменили и почистили от пыли. Работает теперь даже лучше, чем до
+                            поломки. Спасибо!</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Александр" class="author-avatar">
+                        <div>
+                            <div class="author-name">Александр</div>
+                            <div class="author-position">Менеджер, 34 года</div>
+                            <div class="rating">★★★★★</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>Уронила телефон, разбился экран. Думала, что придется покупать новый, но в этой организации
+                            заменили
+                            экран за час и подарили защитное стекло. Телефон как новый, а цена в 3 раза ниже, чем в
+                            официальном сервисе.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Екатерина"
+                            class="author-avatar">
+                        <div>
+                            <div class="author-name">Екатерина</div>
+                            <div class="author-position">Фотограф, 28 лет</div>
+                            <div class="rating">★★★★★</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>Починили стиральную машину прямо у меня дома! Мастер приехал через 40 минут после звонка,
+                            нашел проблему (засор в насосе), устранил и дал гарантию. Очень удобно, что не пришлось
+                            никуда везти тяжелую технику.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Иван" class="author-avatar">
+                        <div>
+                            <div class="author-name">Иван</div>
+                            <div class="author-position">Учитель, 42 года</div>
+                            <div class="rating">★★★★★</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Контакты -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Свяжитесь с нами</span>
+                <h2>Контакты FixUTech</h2>
+                <p>Оставьте заявку или свяжитесь с нами удобным способом</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h3>Адрес</h3>
+                            <p>г. Москва, Киевская ул., 20</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div>
+                            <h3>Телефон</h3>
+                            <p><a href="tel:+78001234567">+7 (800) 123-45-67</a></p>
+                            <p><a href="tel:+74951234567">+7 (495) 123-45-67</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h3>Email</h3>
+                            <p><a href="mailto:info@techcenter.ru">info@techcenter.ru</a></p>
+                            <p><a href="mailto:support@techcenter.ru">support@techcenter.ru</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <h3>Часы работы</h3>
+                            <p>Пн-Пт: 9:00 - 21:00</p>
+                            <p>Сб-Вс: 10:00 - 18:00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <label class="contact-card label">Можете приехать к нам по этому адресу:</label><br>
+                    <div style="position:relative;overflow:hidden;"><a
+                            href="https://yandex.ru/maps/org/fixmyapple/194200133917/?utm_medium=mapframe&utm_source=maps"
+                            style="color:#eee;font-size:12px;position:absolute;top:0px;">FixMyApple</a><a
+                            href="https://yandex.ru/maps/213/moscow/category/phone_repair/184107787/?utm_medium=mapframe&utm_source=maps"
+                            style="color:#eee;font-size:12px;position:absolute;top:14px;">Ремонт телефонов в
+                            Москве</a><a
+                            href="https://yandex.ru/maps/213/moscow/category/computer_repairs_and_services/184105768/?utm_medium=mapframe&utm_source=maps"
+                            style="color:#eee;font-size:12px;position:absolute;top:28px;">Компьютерный ремонт и услуги в
+                            Москве</a><iframe
+                            src="https://yandex.ru/map-widget/v1/?ll=37.552546%2C55.736394&mode=search&oid=194200133917&ol=biz&sctx=ZAAAAAgBEAAaKAoSCaFq9GqAxkJAEcozL4fd3UtAEhIJFTsah%2FpdwD8RFm2Oc5twpz8iBgABAgMEBSgKOABAhZIHSAFqAnJ1nQHNzMw9oAEAqAEAvQGV%2BnQ8wgFrjsq0kNIB3ZD48MwBo57C3wPG5oujBpazqsCHA8iUtsyNBuKd%2BNAq0aGGtgSw09%2FhtQGUx%2BmSsgKP%2Fo%2B9jgGX5ZOhrAOLlYSxBLS80OkGlOb494gDrv%2FqmgXA1pvJsgKrm%2FCu5AH%2FgZjY2AOCAh3RgdC10YDQstC40YHQvdGL0Lkg0YbQtdC90YLRgIoCRTE4NDEwNTc2OCQxODQxMDc3ODckMTg0MTA4MjIzJDE4NDEwNTU2MCQxODQxMDcwNDYkMTg0MTA4MjM5JDE4NDEwNzgzOZICAJoCDGRlc2t0b3AtbWFwc6oClAIyMTIxOTA0MTMxMjksNTE2MTg5MzA2MzEsMjI4NTc5OTQ4NDE1LDE1MTQ2NzcwMDUzOCw2Mjk1NDE2NDM4OCwxODE1ODU2OTU3MzIsMTU2MTQ4MDk4MjcyLDE2NjM5Mzc4MzA5Niw1ODE5NTAwNzIxNSwxMzQyNzEwMDkyNDksMTgzNjMwNTI0MTMyLDE1OTU3NTUwMTg0MywxMzE0MjI0NzczOTcsNjc0NzAxNDEwMzEsMTg3NjMyNDA4NTE3LDEzNTk4MDQwODIzNCwyMTMxMTY0OTM5MTMsMjk1OTA1NzAxNzQsMTM4Mjg5NjUzNTU4LDQyMjA3MjM5NDIxLDE3Njg1MDU0MTA3NywyMDc5NzU5ODg%3D&sll=37.548136%2C55.736394&source=serp_navig&sspn=0.031967%2C0.011444&text=%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D0%BD%D1%8B%D0%B9%20%D1%86%D0%B5%D0%BD%D1%82%D1%80&z=15.9"
+                            width="560" height="400" frameborder="1" allowfullscreen="true"
+                            style="position:relative;"></iframe></div><br>
+
+                    <label class="contact-card label">Или оставить нам заявку:<a class="link-booking"
+                            href="FixUTechServ.html#booking">Записаться</a></label>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+       <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <i class="fas fa-tools"></i>
+                        <span>FixUTech</span>
+                    </div>
+                    <p>Профессиональный ремонт техники с 2010 года. Более 10 000 довольных клиентов по всей России.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><img class="img-foot" src="./img/gmail.png"></img></a>
+                        <a href="#" class="social-link"><img class="img-foot" src="./img/discord.png"></img></a>
+                        <a href="#" class="social-link"><img class="img-foot" src="./img/telegram.png"></img></a>
+                        <a href="#" class="social-link"><img class="img-foot" src="./img/whatsapp.png"></img></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Услуги</h3>
+                    <ul>
+                        <li><a href="./FixUTechServ.html#smartRepair">Ремонт смартфонов</a></li>
+                        <li><a href="./FixUTechServ.html#laptopRepair">Ремонт ноутбуков</a></li>
+                        <li><a href="./FixUTechServ.html#pcRepair">Ремонт компьютеров</a></li>
+                        <li><a href="./FixUTechServ.html#housetechRepair">Ремонт бытовой техники</a></li>
+                        <li><a href="./FixUTechServ.html#tvRepair">Ремонт телевизоров</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Компания</h3>
+                    <ul>
+                        <li><a href="./index.html#about">О нас</a></li>
+                        <li><a href="./FixUTechWorkers.html">Специалисты</a></li>
+                        <li><a href="./FixUTechWorkers.html#reviews">Отзывы</a></li>
+                        <li><a href="#">Партнеры</a></li>
+                        <li><a href="./index.html#contact">Контакты</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Помощь</h3>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Доставка и оплата</a></li>
+                        <li><a href="#">Гарантия</a></li>
+                        <li><a href="#">Политика конфиденциальности</a></li>
+                        <li><a href="./FixUTechServ.html#booking">Запись на ремонт</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 FixUTech. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
