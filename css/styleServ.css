@@ -214,7 +214,7 @@ background-color: rgba(232, 247, 255, 0.897)
             right: 0;
             width: 50%;
             height: 800px;
-            background: url(/myProject/img/headRepair.png.png) no-repeat center/cover;
+            background: url(./img/headRepair.png.png) no-repeat center/cover;
             opacity: 0.4;
             border-radius: 100px 0 0 500px;
         }
